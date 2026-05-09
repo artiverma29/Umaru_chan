@@ -206,7 +206,7 @@ footer span{color:var(--peach);}
     <div class="stat-lbl">Free</div>
   </div>
   <div class="stat">
-    <div class="stat-num">&lt;5 MB</div>
+    <div class="stat-num">&lt;15 MB</div>
     <div class="stat-lbl">App Size</div>
   </div>
   <div class="stat">
@@ -372,7 +372,7 @@ function doDownload(id,btn){
   const iv=setInterval(()=>{i++;if(i<seq.length)el.textContent=seq[i];},1500);
   setTimeout(()=>{
     clearInterval(iv);
-    window.location.href='https://drive.google.com/drive/folders/1f9XfsVOdpwepHYU2BDn_sKv4cvsRrprd?usp=sharing';
+    window.location.href='https://drive.google.com/file/d/1gNt85NdVIhBoYlYe6tZd_QX3CzY1IyEN/view?usp=sharing';
     btn.style.opacity='';btn.style.pointerEvents='';
     setTimeout(()=>{el.textContent='';dl=false;},3000);
   },5000);
